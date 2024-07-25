@@ -1,0 +1,70 @@
+.row_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto 0 auto;
+  width: 70%;
+}
+.row_card .col .card-header {
+  color: white;
+  padding: 10px;
+  background-color: black;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-header button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.card-header button:hover {
+  color: black;
+}
+td .cart_empty {
+  background-color: white;
+  border: none;
+}
+.cart_empty i,
+.cart_empty p {
+  color: #b5b7ba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  font-size: 40px;
+}
+.prdct-delete {
+  color: #dc3545;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.prdct-delete:hover {
+  color: white;
+  background-color: #dc3545;
+}
+.product-qun .btn-minus,
+.product-qun .btn-plus {
+  color: blue;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.product-qun .btn-minus:hover,
+.product-qun .btn-plus:hover {
+  color: white;
+  background-color: blue;
+}
+.product-qun input {
+  border-color: lightgray;
+  border-radius: 5px;
+}

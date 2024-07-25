@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+/* header */
+#ex4 .pl[data-count]::after {
+  content: attr(data-count);
+  position: absolute;
+  top: 15%;
+  right: 52%;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 50%;
+  line-height: 1rem;
+  padding: 0.19em;
+}
+
+/* Home */
+.item_section .container .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+.row .Upper,
+.row .Lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row .Upper span {
+  background-color: green;
+  padding: 3px;
+  border-radius: 6px;
+  color: white;
+}
+
+.Last button {
+  background-color: #ff3054;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+.Last button:hover {
+  color: black;
+}
+.row .Last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
